@@ -1,0 +1,22 @@
+body {background-color: rgb(0, 33, 47);
+    padding-left: 60px;
+    padding-top: 30px;}
+h1 {color: white;
+    font-family: Palatino Linotype;
+    font-size:45px;
+    font-style: bold;
+    text-decoration-line: underline;
+    text-align: center;}
+h2 {color: white;
+    font-family: Palatino Linotype;
+    font-size: 30px;
+    font-style: bold;
+    text-align: left;}
+p {color: white;
+    font-family: Palatino Linotype;
+    font-size: 20px;}
+button {background-color: rgb(0, 50, 110);
+    border:none;
+    font-size: 15px;
+    color: white;
+    font-family: Palatino Linotype;}
