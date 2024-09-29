@@ -14,9 +14,37 @@ h2 {color: white;
     text-align: left;}
 p {color: white;
     font-family: Palatino Linotype;
-    font-size: 20px;}
+    font-size: 20px;
+    text-align: justify; 
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;}
 button {background-color: rgb(0, 50, 110);
-    border:none;
+    border: none;
+    width: 100%;
     font-size: 15px;
+    font: small-caps;
     color: white;
     font-family: Palatino Linotype;}
+table.table1 {
+    width: 40%;
+    text-align: justify; 
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+    }
+table.table2 {
+    width: 100%;
+    text-align: justify; 
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;}
+td.td1 {
+    min-width: 10px;
+}
