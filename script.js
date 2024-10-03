@@ -1,6 +1,6 @@
 // JavaScript functions for button actions 
 function buttonOneFunction() { 
-    document.getElementById("xd").innerHTML = "én"; 
+    document.getElementById("xd").innerHTML = "ífbíésnésbéSBísbéksblíbskíbsbvlsdi-íblskdblísbílkvlsbíésblsfbésdbíls"; 
 } 
 
 function buttonTwoFunction() { 
