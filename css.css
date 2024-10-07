@@ -4,29 +4,12 @@ body {background-color: rgb(0, 33, 47);
     padding-left: 60px;
     padding-right: 60px;
     padding-top: 20px;}
-h1 {color: black;
-    font-family: Palatino Linotype;
-    font-size: 45px;
-    font-style: bold;
-    text-decoration-line: underline;
-    text-align: center;}
-h2 {color: black;
-    font-family: Palatino Linotype;
-    font-size: 30px;
-    font-style: bold;
-    text-align: left;}
-p.p2 {color: black;
-    text-indent: 30px;
+header {color: black;
     font-family: Palatino Linotype;
     font-size: 20px;
-    font-weight: bold;
-    text-align: justify; 
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    -o-hyphens: auto;
-    hyphens: auto;
-    padding-left: 200px}
+    font-style: bolder;
+    text-decoration-line: underline;
+    text-align: center;}
 p.p1 {color: black;
     text-indent: 30px;
     font-family: Palatino Linotype;
@@ -39,17 +22,42 @@ p.p1 {color: black;
     -o-hyphens: auto;
     hyphens: auto;
     padding-left: 180px;}
+p.p2 {color: black;
+    text-indent: 30px;
+    font-family: Palatino Linotype;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify; 
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+    padding-left: 200px}
+p.p3 {
+    color: black;
+    text-indent: 30px;
+    font-family: Palatino Linotype;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify; 
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+    padding-left: 150px}
 button {background-color: transparent;
     border: none;
-    padding-left: 50px;
-    padding-right: 60px;
+    padding-left: 100px;
     opacity: 100%;
     width: 100%;
+    min-height: 40px;
     font-size: 15px;
     font-weight: bold;
     color: black;
     font-family: Palatino Linotype;}
-table.table1 {
+table {
     width: 100%;
     align-content: center;
     text-align: justify; 
@@ -71,6 +79,13 @@ td.td {
     width: 1000px;
     padding-top: 10px;
 }
+th {color: black;
+    font-family: Palatino Linotype;
+    font-size: 30px;
+    font-style: bold;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 100px;}
 td.td1 {
     min-width: 10px;
 }

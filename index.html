@@ -1,25 +1,17 @@
 <!DOCTYPE html>
-    <html lang="en">
+    <html lang="hu">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <head>
             <link rel="stylesheet" href="css.css">
             <title>Ritz András</title>
         </head>
+        <header>
+            Üdvözöllek a weboldalamon!
+        </header>
         <body>
-            <h1>Üdvözöllek a weboldalamon!</h1>
-            <h2>Kedves Látogató!</h2>
-            <table class="table1" lang="hu">
-                <tr>
-                    <td class="td" rowspan="6">
-                        <p class="p1">Ritz András vagyok, 18 éves, 
-                        jelenleg a BME Ipari termék-  
-                        és formatervező mérnöki BSC 
-                        elsőéves hallgatója. 
-                        A weboldalam célja, hogy bemutatkozzak
-                            hobbijaimon és érdeklődési köreimen keresztül
-                        egy sajátos, remélhetőleg élvezhető módon. <br><br>
-                        ui.: A fülek tartalmai nem teljesen függetlenek egymástól, javasolt sorban haladni.
-                        </p>  
-                    </td>    
+            <table lang="hu">
+                <th colspan="2">Menü</th>
+                <th id="1"></th>
                 <tr>
                     <td class="td1">
                         <button onclick="buttonOneFunction()">Rólam</button> 
@@ -27,7 +19,11 @@
                     <td class="td1">
                         <button onclick="buttonTwoFunction()">Versek</button> 
                     </td>
-                </tr>
+                    <td class="td" rowspan="10">
+                        <p id="2" class="p1"></p>
+                        <p id="3" class="p3"></p>  
+                    </td> 
+                </tr>   
                 <tr>
                     <td class="td1">
                         <button onclick="buttonThreeFunction()">Rólam2</button>
