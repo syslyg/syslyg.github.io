@@ -58,6 +58,7 @@ button {background-color: transparent;
     color: black;
     font-family: Palatino Linotype;}
 table {
+    padding-left: 40px;
     width: 100%;
     align-content: center;
     text-align: justify; 
@@ -65,19 +66,12 @@ table {
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     -o-hyphens: auto;
-    hyphens: auto;
-    }
-table.table2 {
-    width: 100%;
-    text-align: justify; 
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    -o-hyphens: auto;
-    hyphens: auto;}
+    hyphens: auto; }
 td.td {
     width: 1000px;
     padding-top: 10px;
+    text-align: justify;
+    vertical-align: top;
 }
 th {color: black;
     font-family: Palatino Linotype;
@@ -88,4 +82,5 @@ th {color: black;
     padding-left: 100px;}
 td.td1 {
     min-width: 10px;
-}
+    vertical-align: middle;
+    text-align: right;}
