@@ -101,8 +101,10 @@ div.row1 {
     padding-left: 150px;}
 @media (max-width: 800px) {
     div.row1 {
-        flex-direction: column; /* Change to row when screen is narrow */
-        flex-wrap: wrap; /* Allow items to wrap if needed */
+        flex-direction: column; 
+        flex-wrap: wrap; 
+        padding: 10px;
+    
     }
     }
 div.header {color: black;
