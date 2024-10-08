@@ -1,4 +1,3 @@
-// Utility function to fetch text from a .txt file
 function loadTextFromFile(filePath, elementId) {
     fetch(filePath)
         .then(response => response.text())
@@ -10,8 +9,6 @@ function loadTextFromFile(filePath, elementId) {
 function loadImage(imagePath, elementId) {
     document.getElementById(elementId).src = imagePath;
 }
-
-// Button functions to load different text files
 function buttonOneFunction() { 
     document.getElementById("1").innerHTML = "Kedves Látogató!"
     loadTextFromFile('content1.txt', '2');
