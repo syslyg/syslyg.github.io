@@ -5,8 +5,8 @@ body {background-color: rgb(0, 33, 47);
     background-position: center;
     background-attachment: fixed;
     height: 100%;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top: 20px;}
 header {color: black;
     font-family: Palatino Linotype;
@@ -39,7 +39,8 @@ p.p2 {color: black;
     -ms-hyphens: auto;
     -o-hyphens: auto;
     hyphens: auto;
-    padding-left: 200px}
+    padding-left: 5%;
+    padding-right: 5%;}
 p.p3 {
     color: black;
     text-indent: 30px;
@@ -78,6 +79,13 @@ div.menu {
     hyphens: auto;
     display: flex;
     flex-direction: column;}
+div.topcell {
+    min-width: 10%;
+    max-width: 100%;
+    gap: 15px;
+    vertical-align: top;
+    text-align: center;
+    flex: 1 1 150px;}
 div.cell1 {
     max-width: 1000px;
     text-align: justify;
@@ -99,14 +107,6 @@ div.row1 {
     align-items: top;
     gap: 10px;
     padding-left: 150px;}
-@media (max-width: 800px) {
-    div.row1 {
-        flex-direction: column; 
-        flex-wrap: wrap; 
-        padding: 10px;
-    
-    }
-    }
 div.header {color: black;
     font-family: Palatino Linotype;
     font-size: 30px;
@@ -123,5 +123,41 @@ div.cell {
     align-items: flex-start;
     flex: 1 1 150px;}
 img {
-    max-width: 150px;
-}
+    max-width: 150px;}
+@media (max-width: 800px) {
+    header {align-content: center;}
+    h1 {align-content: center;
+        text-align: center;
+        display: flex;}
+    div.cell {
+        align-content: center;}
+    div.topcell {
+        display: flex;
+        align-content: center;
+        text-align:center;}
+    div.row1 {
+        flex-direction: column; 
+        flex-wrap: wrap; 
+        align-content: center;
+        padding-left: 10%;
+        padding-right: 10%}
+    div.header {
+        align-content: center;
+        text-align: center;
+        padding-left: 10%;
+        padding-right:10%;
+        display: flex;}
+    div.menu {
+        align-content: center;
+        padding-left: 10%;
+        padding-right: 10%;
+        display: flex;}
+    body {
+        align-content: center;
+        max-width: 800px;
+        width: 100vw;}
+    div.cell1 {
+        align-content: center;
+        max-width: 200px;
+        padding-left: 10%;
+        padding-right: 10%;}}
