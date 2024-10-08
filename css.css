@@ -14,6 +14,10 @@ header {color: black;
     font-style: bolder;
     text-decoration-line: underline;
     text-align: center;}
+h1 {text-align: middle;
+    padding-left: 150px;
+    font-size: 40px;
+    font-family: Palatino Linotype;}
 p.p1 {color: black;
     text-indent: 30px;
     font-family: Palatino Linotype;
@@ -24,10 +28,8 @@ p.p1 {color: black;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     -o-hyphens: auto;
-    hyphens: auto;
-    padding-left: 180px;}
+    hyphens: auto;}
 p.p2 {color: black;
-    text-indent: 30px;
     font-family: Palatino Linotype;
     font-size: 20px;
     font-weight: bold;
@@ -53,43 +55,71 @@ p.p3 {
     padding-left: 150px}
 button {background-color: transparent;
     border: none;
-    padding-left: 100px;
     opacity: 100%;
-    width: 100%;
-    min-height: 40px;
-    font-size: 15px;
+    width: 150px; 
+    min-height: 50px;
+    min-width: 150px; 
+    padding: 10px;
+    font-size: 17.5px;
     text-align: center;
-    vertical-align: middle;
+    vertical-align: top;
     font-weight: bold;
     color: black;
-    font-family: Palatino Linotype;}
-table {
-    padding-left: 40px;
+    font-family: Palatino Linotype;
+    gap: 2px;}
+div.menu {
     width: 100%;
     align-content: center;
-    text-align: justify; 
+    text-align: center; 
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     -o-hyphens: auto;
-    hyphens: auto; }
-td.td {
-    width: 1000px;
-    padding-top: 10px;
+    hyphens: auto;
+    display: flex;
+    flex-direction: column;}
+div.cell1 {
+    max-width: 1000px;
     text-align: justify;
     vertical-align: top;
-}
-th {color: black;
+    flex: 1;
+    padding-left: 100px;
+    flex-direction: column;
+    gap: 15px;}
+div.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;}
+div.row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: top;
+    gap: 10px;
+    padding-left: 150px;}
+@media (max-width: 800px) {
+    div.row1 {
+        flex-direction: column; /* Change to row when screen is narrow */
+        flex-wrap: wrap; /* Allow items to wrap if needed */
+    }
+    }
+div.header {color: black;
     font-family: Palatino Linotype;
     font-size: 30px;
     font-style: bold;
-    text-align: center;
+    text-align: left;
     padding-top: 20px;
     padding-left: 100px;}
-td.td1 {
-    min-width: 10px;
-    vertical-align: middle;
-    text-align: right;}
+div.cell {
+    min-width: 150px;
+    max-width: 250px;
+    gap: 15px;
+    vertical-align: top;
+    text-align: center;
+    align-items: flex-start;
+    flex: 1 1 150px;}
 img {
     max-width: 150px;
 }

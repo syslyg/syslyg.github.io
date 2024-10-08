@@ -1,78 +1,99 @@
 <!DOCTYPE html>
     <html lang="hu">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <head>
             <link rel="stylesheet" href="css.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Ritz András</title>
         </head>
         <header>
             Üdvözöllek a weboldalamon!
         </header>
         <body>
-            <table lang="hu">
-                <th colspan="2">Menü</th>
-                <th id="1"></th>
-                <tr>
-                    <td class="td1">
-                        <button onclick="buttonOneFunction()">Rólam</button> 
-                    </td>
-                    <td class="td1">
-                        <button onclick="buttonTwoFunction()">Versek</button> 
-                    </td>
-                    <td class="td" rowspan="10">
-                        <p id="2" class="p1">Üdv!</p>
-                        <p id="3" class="p3">Válassz valamit a menüből!</p>  
-                    </td> 
-                </tr>   
-                <tr>
-                    <td class="td1">
-                        <button onclick="buttonThreeFunction()">Rólam2</button>
-                    </td>
-                    <td class="td1">
-                        <button onclick="buttonFourFunction()">LEGO</button> 
-                    </td>
-                </tr>
-                <tr>
-                    <td class="td1">
-                        <button onclick="buttonFiveFunction()">Középsuli</button> 
-                    </td>
-                    <td class="td1">
-                        <button onclick="buttonSixFunction()">Hobbi-sport</button> 
-                    </td>
-                </tr>
-                <tr>
-                    <td class="td1">
-                        <button onclick="buttonSevenFunction()">Egyetem</button> 
-                    </td>
-                    <td class="td1">
-                        <button onclick="buttonEightFunction()">Túra</button> 
-                    </td>
-                </tr>
-                <tr>    
-                    <td class="td1">
-                        <button onclick="buttonNineFunction()">Zene</button> 
-                    </td>
-                    <td class="td1">
-                        <button onclick="buttonTenFunction()">CurveFever</button> 
-                    </td>
-                </tr>
-                <tr>    
-                    <td class="td1">
-                        <img id="4" src="">
-                    </td>
-                    <td class="td1">
-                        <img id="5" src="">
-                    </td>
-                </tr>
-                <tr>    
-                    <td>
-                        <img id="6" src="">
-                    </td>
-                    <td>
-                        <img id="7" src="">
-                    </td>
-                </tr>
-            </table>          
+            <div lang="hu" class="menu">
+                <div class="cell">
+                    <div class="header">
+                        <h1>Menü</h1>
+                    </div>
+                </div>
+                <div class="row1">
+                    <div class="cell">
+                        <div class="cell">
+                            <div class="row">
+                                <div class="cell">
+                                    <button onclick="buttonOneFunction()">Rólam</button> 
+                                </div>
+                                <div class="cell">
+                                    <button onclick="buttonTwoFunction()">Versek</button> 
+                                </div>
+                            </div>  
+                        </div> 
+                        <div class="cell">
+                            <div class="row">
+                                <div class="cell">
+                                    <button onclick="buttonThreeFunction()">Rólam2</button>
+                                </div>
+                                <div class="cell">
+                                    <button onclick="buttonFourFunction()">LEGO</button> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="row">
+                                <div class="cell">
+                                    <button onclick="buttonFiveFunction()">Középsuli</button> 
+                                </div>
+                                <div class="cell">
+                                    <button onclick="buttonSixFunction()">Hobbi-sport</button> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="row">
+                                <div class="cell">
+                                    <button onclick="buttonSevenFunction()">Egyetem</button> 
+                                </div>
+                                <div class="cell">
+                                    <button onclick="buttonEightFunction()">Túra</button> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="row">    
+                                <div class="cell">
+                                    <button onclick="buttonNineFunction()">Zene</button> 
+                                </div>
+                                <div class="cell">
+                                    <button onclick="buttonTenFunction()">CurveFever</button> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="row">    
+                                <div class="cell">
+                                    <img id="4" src="">
+                                </div>
+                                <div class="cell">
+                                    <img id="5" src="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="row">    
+                                <div class="cell">
+                                    <img id="6" src="">
+                                </div>
+                                <div class="cell">
+                                    <img id="7" src="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="cell1">
+                    <h2 id="1"></h2>
+                    <p id="2" class="p1">Üdv!</p>
+                    <p id="3" class="p3">Válassz valamit a menüből!</p>  
+                </div>
+            </div>            
             <script src="script.js"></script>
         </body>
     </html>
