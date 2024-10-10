@@ -1,6 +1,7 @@
-Ritz András vagyok, 18 éves, jelenleg a BME Ipari termék- és formatervező mérnöki BSC elsőéves hallgatója. 
+<p class="p1">Ritz András vagyok, 18 éves, jelenleg a BME Ipari termék- és formatervező mérnöki BSC elsőéves hallgatója. 
 A weboldalam célja, hogy bemutatkozzak hobbijaimon és érdeklődési köreimen keresztül, egy sajátos, remélhetőleg élvezhető módon.
 <br>
 <br>
 ui.: A fülek között lehet átfedés, érdemes sorban haladni.
+</p>
 

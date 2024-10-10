@@ -1,2 +1,4 @@
-<p> Nagyjából 2022 végén kezdtem el verseket írni, a legelején szerelem témában, később pedig már magamról, sőt, kétszer fikcionális történetet írtam le.
- </p>
+<p class="p1"> Nagyjából 2022 végén kezdtem el verseket írni, a legelején szerelem témában, később pedig már magamról és a világról is, sőt, 
+kétszer fikcionális történetet is kitaláltam. Ennek folytatását/befejezését tervezem a későbbiekben.
+ha érdekelnek a <a href="...">verseim</a>, ezen a linken tudod őket elolvasni. 
+</p>
