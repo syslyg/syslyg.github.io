@@ -167,7 +167,10 @@ img {
         margin-top: 20px;
         margin-bottom: 20px;
     }
-
+    div.column {
+        align-items: center;
+        max-width: 70%;
+    }
     div.cell {
         text-align: center;  /* Center cells on mobile */
         align-items: center;
@@ -177,6 +180,8 @@ img {
         text-align: center;  /* Center topcell content */
         display: flex;
         justify-content: center;
+        align-items: center;
+        padding-left: 0;
     }
 
     div.row1 {
@@ -198,7 +203,8 @@ img {
     div.menu {
         width: 100%;
         text-align: center;  /* Center menu on mobile */
-        justify-content: center;  /* Center menu items */
+        justify-content: center; 
+        align-items:center; /* Center menu items */
         display: flex;
     }
 
@@ -206,12 +212,24 @@ img {
         width: 100%;
         text-align: center;  /* Center body content */
         justify-content: center;
+        background-size: cover;
+        padding: 0px;
+        margin: 0px;
     }
 
     div.cell1 {
-        text-align: center;  /* Center content on mobile */
-        max-width: 200px;
+        text-align: center;
+        align-items: center;  
+        max-width: 70%;
         padding-left: 5%; /* Adjust padding for mobile */
         padding-right: 5%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px; 
+        gap: 0px;
+    }
+    p.p1 {
+        margin: 0px;
+        padding: 0px;
     }
 }
