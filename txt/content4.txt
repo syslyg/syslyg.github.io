@@ -1,0 +1,13 @@
+<p class="p1">
+Arra már nem is emlékszem, mikor kaptam ez első LEGO-m, de abban, hogy már akkor beleszerettem az kreatív építésbe, biztos vagyok. 
+Azóta sokat fejlődtem, leginkább projektszerűen építettem ömlesztett és útmutatós készletek kombinálásával. Mindig fontos volt, 
+hogy valami funkciót is építsek bele, ne csak kiállítási darab legyen. Így született meg a busz és a kamoion ötlete. 
+Később felfedeztem a <a href="https://www.bricklink.com/v3/studio/download.page" target="blank">Bricklink Studio</a> 
+nyújtotta lehetőségeket, amivel ugyanúgy kreatívan tudok építeni, mégsem kell megvennem hozzá az olyan elemeket, 
+amik még nincsenek otthon. Így készült el az eddigi legnagyobb projektem, a Ferrari egyik F1-es autója. <br>
+Futó projektek között van egy óceánkutatóhajó, a Ramform Titan megépítése, és egy Caddilac Escalade-t is 
+szeretnék valamikor összerakni. 
+Másik, már régóta futó projektem a 
+<a href="https://curvefever.pro" target="blank">CurveFeverPro</a> játék
+összes űrhajójának és skinjénel a modellezése.
+</p>

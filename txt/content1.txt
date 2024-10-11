@@ -2,6 +2,6 @@
 A weboldalam célja, hogy bemutatkozzak hobbijaimon és érdeklődési köreimen keresztül, egy sajátos, remélhetőleg élvezhető módon.
 <br>
 <br>
-ui.: A fülek között lehet átfedés, érdemes sorban haladni.
+ui.: A Bevezetés nem véletleül a bevezetés, de azután fakultatív a sorrend.
 </p>
 

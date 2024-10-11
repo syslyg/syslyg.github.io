@@ -1,0 +1,10 @@
+<p class="p1">
+A pécsi Janus - Magyarország egyetlen Janus Pannoniusról elnevezett középiskolája - talán a legkisebb területű gimi Pécsen.
+Ebből kiindulva - de egyébként is, inkább a tanítás és az eredmények azok, amiről híres. 2020 és 2024 között jártam oda emelt 
+matematika szakon, később fizika fakultáción. Három évben jeles, egy évben kiváló eredménnyel zártam az éveket. <br>
+Sokszor vettem részt tanulmányi versenyeken mind magyarból, mind matekból vagy fizikából, sőt, egyszer történelemből is.
+Tagja voltam az iskolai 3D nyomtatás és innováció szakkörének, ahol leginkább LEGO-robotikával foglalkoztam, de versenyre nem
+sikerült eljutni vele.
+A 2023-24-es tanévre jelentkeztem az iskolai DÖK-be, ahol végül elnöknek lettem megválasztva. Ennek köszönhetően bekerültem a 
+városi diákönkormányzatba is, ahol szervezői feladatokat láttam el. 
+</p>

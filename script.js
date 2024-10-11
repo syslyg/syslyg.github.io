@@ -23,13 +23,13 @@ function buttonTwoFunction() {
 } 
 function buttonThreeFunction() { 
     loadTextFromFile('txt/content3.txt', '2');
-    document.getElementById("1").innerHTML = "";
+    document.getElementById("1").innerHTML = "Bevezetés";
     loadImage("pic1.jpg", '4');
     loadImage("pic1.jpg", "5");
 }
 function buttonFourFunction() { 
     loadTextFromFile('txt/content4.txt', '2');
-    document.getElementById("1").innerHTML = "";
+    document.getElementById("1").innerHTML = "LEGO";
     loadImage("pic1.jpg", '4');
     loadImage("pic1.jpg", "5");
 }
